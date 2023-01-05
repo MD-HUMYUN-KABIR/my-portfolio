@@ -163,3 +163,28 @@ padding: 20px;
     margin-top: 30px;
    text-align: center;
 }
+/*  */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 50px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 10px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 10px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact h3{
+    margin-bottom: 20px;
+}
